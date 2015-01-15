@@ -1,6 +1,6 @@
-author = "Tonic And Sam";
-onLoadName = "Altis Life RPG v3.1.4.8";
-onLoadMission = "A RPG game mode developed by Tonic and adapted for City Of Atlis";
+author = "Tonic And CoA Team";
+onLoadName = "Altis Life RPG v0.25";
+onLoadMission = "A RPG game mode developed by Tonic and adapted for City Of Altis server";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -68,7 +68,7 @@ class CfgDebriefing
 	{
 		title = "Mission Failed";
 		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		description = "You are not allowed to use this slot as you are not a high enough rank, for cops scroll down for public slots.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -78,7 +78,7 @@ class CfgDebriefing
 	{
 		title = "Mission Failed";
 		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		description = "You are not allowed to be a cop because of your actions, feel free to go on teamspeak and appeal to an owner.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -88,7 +88,7 @@ class CfgDebriefing
 	{
 		title = "The SpyGlass sees you";
 		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		description = "You were detected for cheating and have been reported to the server. If this is a false positive please report it.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -102,7 +102,7 @@ class CfgNotifications
 		title = "EMS Requested";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
-		duration = 5;
+		duration = 7;
 		priority = 7;
 	};
 	
@@ -111,7 +111,7 @@ class CfgNotifications
 		title = "Delivery Job Accepted";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
-		duration = 10;
+		duration = 13;
 		priority = 7;
 	};
 	
@@ -129,7 +129,7 @@ class CfgNotifications
 		title = "Delivery Job Completed";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
-		duration = 6;
+		duration = 7;
 		priority = 6;
 	};
 	
@@ -156,7 +156,7 @@ class CfgNotifications
 		title = "Admin Dispatch Center";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
-		duration = 10;
+		duration = 15;
 		priority = 6;
 	};
 	
@@ -165,7 +165,7 @@ class CfgNotifications
 		title = "Admin Message";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
-		duration = 10;
+		duration = 15;
 		priority = 5;
 	};
 };
