@@ -1,6 +1,6 @@
 /*
 	File: fn_medicMarkers.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Bryan "Tonic" Boardwine edited by Sam
 	
 	Description:
 	Marks downed players on the map when it's open.
