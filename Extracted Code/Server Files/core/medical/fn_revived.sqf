@@ -1,9 +1,9 @@
 /*
 	File: fn_revived.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Bryan "Tonic" Boardwine edited by Sam
 	
 	Description:
-	THANK YOU JESUS I WAS SAVED!
+	Script processes revived players
 */
 private["_medic","_dir"];
 _medic = [_this,0,"Unknown Medic",[""]] call BIS_fnc_param;
@@ -21,8 +21,10 @@ camDestroy life_deathCamera;
 //Take fee for services.
 if(life_atmcash > (call life_revive_fee)) then {
 	life_atmcash = life_atmcash - (call life_revive_fee);
+	systemChat "EMS has helped someone again"
 } else {
-	life_atmcash = 0;
+	life_atmcash = 500;
+	systemChat "Someone couldn't afford EMS fees, to get them back on ther feet the state has donated $500" //Possibly might be farmed
 };
 
 //Retexturing of units clothing, vanilla files only retexture the EMS unit.
