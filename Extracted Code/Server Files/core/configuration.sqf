@@ -32,12 +32,12 @@ life_removeWanted = false;
 life_action_gathering = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,FALSE); //Save weapons for civs?
-__CONST__(life_save_yinv,FALSE); //Save Y-Inventory for players?
+__CONST__(life_save_civ,TRUE); //Save weapons for civs?
+__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
 
 //Revive constant variables.
 __CONST__(life_revive_cops,TRUE); //Set to false if you don't want cops to be able to revive downed players.
-__CONST__(life_revive_fee,250); //Fee for players to pay when revived.
+__CONST__(life_revive_fee,1000); //Fee for players to pay when revived.
 
 //House Limit
 __CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
@@ -89,18 +89,18 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7000; //Starting Bank Money
+		life_atmcash = 12000; //Starting Bank Money
 		life_paycheck = 500; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
+		life_atmcash = 7000; //Starting Bank Money
 		life_paycheck = 350; //Paycheck Amount
 	};
 	
 	case independent: {
 		life_atmcash = 6500;
-		life_paycheck = 450;
+		life_paycheck = 500;
 	};
 };
 
@@ -229,7 +229,7 @@ sell_array =
 	["peach",55],
 	["cocaine",3000],
 	["cocainep",5000],
-	["diamond",750],
+	["diamond",900],
 	["diamondc",2000],
 	["iron_r",3200],
 	["copper_r",1500],
@@ -281,7 +281,7 @@ life_weapon_shop_array =
 	["ToolKit",75],
 	["FirstAidKit",65],
 	["Medikit",450],
-	["NVGoggles",980],
+	["NVGoggles",320],
 	["16Rnd_9x21_Mag",15],
 	["20Rnd_556x45_UW_mag",35],
 	["ItemMap",35],
