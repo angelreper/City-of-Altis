@@ -1,10 +1,10 @@
 #include <macro.h>
 /*
 	File: fn_onPlayerRespawn.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Bryan "Tonic" Boardwine edited by Sam
 	
 	Description:
-	Does something but I won't know till I write it...
+	Respawns the player arfter the time limit
 */
 private["_unit","_corpse"];
 _unit = _this select 0;
