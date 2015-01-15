@@ -1,6 +1,6 @@
 /*
 	File: fn_questionDealer.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Bryan "Tonic" Boardwine edied by Sam
 	
 	Description:
 	Questions the drug dealer and sets the sellers wanted.
@@ -18,6 +18,8 @@ _names = "";
 	[[_x select 0,_x select 1,"483",_val],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 	_names = _names + format["%1<br/>",_x select 1];
 } foreach _sellers;
+
+systemChat "The local dealer has given details to the cops, drug dealers are not wanted"
 
 hint parseText format[(localize "STR_Cop_DealerMSG")+ "<br/><br/>%1",_names];
 (_this select 0) setVariable["sellers",[],true];
