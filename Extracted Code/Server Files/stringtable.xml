@@ -261,8 +261,8 @@
         	    <French>Vous avez ajouté $%1 à votre compte</French>
         	</Key>
         	<Key ID="STR_ANOTF_Fail">
-        	    <Original>You can not go above 999999.</Original>
-        	    <English>You can not go above 999999.</English>
+        	    <Original>You can not go above $999999.</Original>
+        	    <English>You can not go above $999999.</English>
         	    <German>To Be Changed</German>
         	    <French>Vous ne pouvez pas aller au-dessus $999999</French>
         	</Key>
