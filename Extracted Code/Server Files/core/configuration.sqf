@@ -30,6 +30,9 @@ life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
 life_action_gathering = false;
+life_god = false; //Add this
+life_frozen = false; //And this
+life_markers = false; //Finally this
 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?

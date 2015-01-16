@@ -1,10 +1,10 @@
 #include <macro.h>
 /*
-    File: fn_adminSpectate.sqf
-    Author: ColinM9991
-    
-    Description:
-    Spectate the chosen player.
+	File: fn_adminSpectate.sqf
+	Author: ColinM9991
+	
+	Description:
+	Spectate the chosen player.
 */
 if(__GETC__(life_adminlevel) == 0) exitWith {closeDialog 0;};
 
@@ -17,8 +17,8 @@ if(_unit == player) exitWith {hint localize "STR_ANOTF_Error";};
 
 [] spawn {
   while {dialog} do {
-    closeDialog 0;
-    sleep 0.01;
+   closeDialog 0;
+   sleep 0.01;
   };
 };
 
