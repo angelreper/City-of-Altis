@@ -356,6 +356,16 @@
 			<Italian>Il giocatore non esiste più</Italian>
 			<Portuguese>Jogador não existe mais?</Portuguese>
 		</Key>
+		<Key ID="STR_NOTF_Frozen">
+            		<Original>You have been frozen by an administrator</Original>
+            		<English>You have been frozen by an administrator</English>
+            		<German>To Be Changed</German>
+        	</Key>
+        	<Key ID="STR_NOTF_Unfrozen">
+            		<Original>You have been unfrozen by an administrator</Original>
+            		<English>You have been unfrozen by an administrator</English>
+            		<German>To Be Changed</German>
+        	</Key>
 	</Package>
 	<Package name="ATM_Strings">
 		<Key ID="STR_ATM_Title">
