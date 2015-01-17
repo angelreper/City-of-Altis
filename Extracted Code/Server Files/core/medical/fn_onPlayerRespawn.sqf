@@ -23,8 +23,6 @@ _unit setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting 
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Reset the UID.
 _unit setVariable["realname",profileName,true]; //Reset the players name.
 
-systemChat "The medics didn't get ther in time, someone respawned"; //Try and make it say player name
-
 _unit addRating 9999999999999999; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "amovppnemstpsraswrfldnon";
 

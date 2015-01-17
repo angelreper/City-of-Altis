@@ -241,7 +241,7 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",150000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -270,8 +270,8 @@ buy_array =
 	["blastingcharge",35000],
 	["boltcutter",7500],
 	["defusekit",2500],
-	["storagesmall",75000],
-	["storagebig",150000]
+	["storagesmall",50000],
+	["storagebig",100000]
 ];
 __CONST__(buy_array,buy_array);
 
@@ -281,9 +281,9 @@ life_weapon_shop_array =
 	["hgun_P07_snds_F",650],
 	["hgun_P07_F",1500],
 	["ItemGPS",45],
-	["ToolKit",75],
+	["ToolKit",500],
 	["FirstAidKit",65],
-	["Medikit",450],
+	["Medikit",600],
 	["NVGoggles",320],
 	["16Rnd_9x21_Mag",15],
 	["20Rnd_556x45_UW_mag",35],

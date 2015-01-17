@@ -29,8 +29,8 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
-						["arifle_sdar_F","Taser Rifle",20000],
-						["hgun_P07_snds_F","Stun Pistol",2000],
+						["DDOPP_X26","Stun Pistol",2000],
+						["DDOPP_1Rnd_X26",nil,50],
 						["hgun_P07_F",nil,7500],
 						["HandGrenade_Stone","Flashbang",1700],
 						["Binocular",nil,150],

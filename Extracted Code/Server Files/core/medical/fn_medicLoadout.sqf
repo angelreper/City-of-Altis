@@ -12,8 +12,6 @@ waitUntil {scriptDone _handle};
 player addUniform "U_Rangemaster";
 player addItem "FirstAidKit";
 player addItem "FirstAidKit";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
 player addItem "ItemMap";
