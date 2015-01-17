@@ -11,6 +11,8 @@ enableSaving[false,false];
 life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-[] execVM "DonorSpawn.sqf";﻿
+[] execVM "DonorSpawn.sqf";
+// cruise control might be broken
+[] execVM "\life_server\mods\mod_cruiseControl.sqf";
 
 StartProgress = true;

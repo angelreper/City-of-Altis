@@ -34,7 +34,11 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Custom Change Log",
 				"
-					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.
+					Added Fast Rope scripts.<br/>
+					New admin menu.<br/>
+					Jail Time script<br/>
+					Changed description<br/>
+					Added diver stats<br/>
 				"
 		]
 	];

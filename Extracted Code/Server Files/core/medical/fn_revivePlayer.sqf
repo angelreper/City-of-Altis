@@ -5,6 +5,9 @@
 	Description:
 	Starts the revive process on the player.
 */
+_medics = independent countSide playableUnits; //Medic script for cops to only revive when no medics
+if( {_medics > 0} && (playerside == west)) exitWith {cutText["Can't revive with medics online","PLAIN"];};
+
 private["_target","_revivable","_targetName","_ui","_progressBar","_titleText","_cP","_title"];
 _target = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _target) exitWith {}; //DAFUQ?@!%$!R?EFFD?TGSF?HBS?DHBFNFD?YHDGN?D?FJH
