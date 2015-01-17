@@ -2,7 +2,7 @@
    	{
 		idd=-1;
 		movingEnable=0;
-	  	fadein=0;
+	  	fadein=1;
 		duration = 99999999999999999999999999999999999999999999;
 	  	fadeout=0;
 		name="playerHUD";

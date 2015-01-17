@@ -9,7 +9,7 @@ private["_handle","_timeStamp"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
-diag_log "--------------------------------- Starting Altis Life Client Init ----------------------------------";
+diag_log "--------------------------------- Starting City of Altis Init ----------------------------------";
 diag_log "------------------------------------------------------------------------------------------------------";
 waitUntil {!isNull player && player == player}; //Wait till the player is ready
 [] call compile PreprocessFileLineNumbers "core\clientValidator.sqf";
@@ -78,7 +78,7 @@ diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
 player addRating 99999999;
 diag_log "------------------------------------------------------------------------------------------------------";
-diag_log format["                End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
+diag_log format["                End of City of Altis Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
 life_sidechat = true;
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;

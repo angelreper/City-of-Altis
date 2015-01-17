@@ -148,3 +148,11 @@ class CfgVehicles
 		};
 	};
 };
+
+class Jail_Sys
+{
+  file = "\life_server\Functions\Jail";
+  class jailSys {};
+  class jailTimer {};
+  class jailPlayer {};
+};
