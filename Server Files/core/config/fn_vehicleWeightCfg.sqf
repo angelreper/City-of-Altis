@@ -50,5 +50,11 @@ switch (_className) do
 	case "demian2435_police_car": {80};
 	case "demian2435_police_offroad": {100};
 	case "demian2435_police_helicopter":{220};
+	case "Heli_Transport_DZ":{350};
+	case "Heli_Transport_CDN808":{350};
+	case "Heli_Transport_DK10":{350};
+	case "MMT_USMC":{15};
+	case "LandRover_TK_CIV_EP1":{200};
+	case"TCG_CVPILBFD":{80};
 	default {-1};
 };

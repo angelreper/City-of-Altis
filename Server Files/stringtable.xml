@@ -496,7 +496,7 @@
 	</Package>
 	<Package name="Cell_Phone">
 		<Key ID="STR_CELL_Title">
-			<Original>Altis Mobile</Original>
+			<Original>City Mobile</Original>
  			<German>Altis Mobilfunk</German>
 			<French>Altis mobile</French>
 			<Italian>Cellulare Altis</Italian>
@@ -2046,7 +2046,7 @@
 			<Portuguese>%1 escapou da prisão</Portuguese>
 		</Key>
 		<Key ID="STR_Jail_EscapeSelf">
-			<Original>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail.</Original>
+			<Original>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail. Watch out for cops!</Original>
 			<German>Du bist aus dem Gefängnis ausgebrochen, die Polizei sucht bereits wegen deiner früheren Verbrechen und Gefängnisausbruch nach dir.</German>
 			<French>Vous vous êtes échappé de prison, vous conserver toujours vos crimes précédents et ils savent maintenant que vous vous êtes échappé de prison.</French>
 			<Italian>Sei scappato di prigione, rimarrai ricercato per i crimini da te commessi in precedenza e in aggiunta per essere scappato di prigione.</Italian>

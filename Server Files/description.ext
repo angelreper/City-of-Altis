@@ -1,11 +1,11 @@
 author = "Tonic And CoA Team";
-onLoadName = "Altis Life RPG v0.25";
+onLoadName = "Altis Life RPG v0.3";
 onLoadMission = "A RPG game mode developed by Tonic and adapted for City Of Altis server";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
-disableChannels[]={0,1,2};
+disableChannels[]={1,2};
 enableDebugConsole = 1;
 respawnDialog = 0;
 

@@ -14,6 +14,7 @@ _veh = _this select 0;
 _ret = false;
 
 if(_veh == "B_Quadbike_01_F") exitWith {true}; //ATV's don't need to require a license anymore.
+if(_veh == "MMT_USMC") exitWith {true};
 
 switch (life_veh_shop select 0) do
 {

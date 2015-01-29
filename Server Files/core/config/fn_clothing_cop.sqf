@@ -28,6 +28,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
+			_ret pushBack ["U_I_HeliPilotCoveralls",nil,600];
 		};
 	};
 	

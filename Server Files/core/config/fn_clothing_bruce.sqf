@@ -18,13 +18,14 @@ switch (_filter) do
 	case 0:
 	{
 		[
+		["U_C_Poor_2","Rag tagged clothes",150],
+		["U_C_Farmer","Farmer Gear",150],
 		["U_C_Poloshirt_blue","Poloshirt Blue",250],
 		["U_C_Poloshirt_burgundy","Poloshirt Burgundy",275],
 		["U_C_Poloshirt_redwhite","Poloshirt Red/White",150],
 		["U_C_Poloshirt_salmon","Poloshirt Salmon",175],
 		["U_C_Poloshirt_stripped","Poloshirt stripped",125],
 		["U_C_Poloshirt_tricolour","Poloshirt Tricolor",350],
-		["U_C_Poor_2","Rag tagged clothes",250],
 		["U_IG_Guerilla2_2","Green stripped shirt & Pants",650],
 		["U_IG_Guerilla3_1","Brown Jacket & Pants",735],
 		["U_IG_Guerilla2_3","The Outback Rangler",1200],
@@ -32,6 +33,7 @@ switch (_filter) do
 		["U_C_WorkerCoveralls","Mechanic Coveralls",2500],
 		["U_OrestesBody","Surfing On Land",1100],
 		["U_NikosAgedBody","Casual Wears",5000]
+		["U_C_Commoner1_1","Commoner Clothes", 300]
 		];
 	};
 	

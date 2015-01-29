@@ -205,6 +205,7 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
+	
 };
 
 _color;
