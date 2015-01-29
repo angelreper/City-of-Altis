@@ -353,11 +353,17 @@ life_garage_prices =
 	["demian2435_police_offroad",1000],
 	["demian2435_police_helicopter",1000],
 	["DAR_TahoeEMS",1000],
-	["LandRover_TK_CIV_EP1",1000]
+	["LandRover_TK_CIV_EP1",1000],
 	["Heli_Transport_DZ",1000],
 	["Heli_Transport_CDN808",1000],
 	["Heli_Transport_DK10",1000],
 	["TCG_CVPILBFD",1000],
+	["TCG_CVPIUCBlack",1000],
+	["TCG_CVPIUCWhite",1000],
+	["TCG_CVPIFPBSTATE",1000],
+	["TCG_CVPIFPBLBSTATE",1000],
+	["TCG_CVPIFPBPD",1000],
+	["TCG_CVPIFPBLBPD",1000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -398,5 +404,11 @@ life_garage_sell =
 	["Heli_Transport_CDN808",2500],
 	["Heli_Transport_DK10",2500],
 	["TCG_CVPILBFD",2500],
+	["TCG_CVPIUCBlack",2500],
+	["TCG_CVPIUCWhite",2500],
+	["TCG_CVPIFPBSTATE",2500],
+	["TCG_CVPIFPBLBSTATE",2500],
+	["TCG_CVPIFPBPD",2500],
+	["TCG_CVPIFPBLBPD",2500]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

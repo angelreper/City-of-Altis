@@ -55,6 +55,13 @@ switch (_className) do
 	case "Heli_Transport_DK10":{350};
 	case "MMT_USMC":{15};
 	case "LandRover_TK_CIV_EP1":{200};
-	case"TCG_CVPILBFD":{80};
+	case "TCG_CVPILBFD":{80};
+	case "TCG_CVPILBFD":{100};
+	case "TCG_CVPIUCBlack":{100};
+	case "TCG_CVPIUCWhite":{100};
+	case "TCG_CVPIFPBSTATE":{100};
+	case "TCG_CVPIFPBLBSTATE":{100};
+	case "TCG_CVPIFPBPD":{100};
+	case "TCG_CVPIFPBLBPD":{100};
 	default {-1};
 };

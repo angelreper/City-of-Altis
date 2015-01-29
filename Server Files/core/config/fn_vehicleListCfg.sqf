@@ -106,9 +106,8 @@ switch (_shop) do
 			_return pushBack
 			["TCG_CVPIFPBLBSTATE",6500];
 			_return pushBack
-			["TCG_CVPIFPBSTATE"7000];
+			["TCG_CVPIFPBSTATE",7000];
 		};
-		
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_return pushBack
