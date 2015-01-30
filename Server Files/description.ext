@@ -1,5 +1,5 @@
-author = "Tonic And CoA Team";
-onLoadName = "Altis Life RPG v0.3";
+author = "Tonic and CoA Team"; //thats my edits
+onLoadName = "Altis Life RPG"; //see im being nice
 onLoadMission = "A RPG game mode developed by Tonic and adapted for City Of Altis server";
 joinUnassigned = 1;
 respawn = BASE;

@@ -14,7 +14,7 @@ _veh = _this select 0;
 _ret = false;
 
 if(_veh == "B_Quadbike_01_F") exitWith {true}; //ATV's don't need to require a license anymore.
-if(_veh == "MMT_USMC") exitWith {true};
+if(_veh == "MMT_USMC") exitWith {true}; //Bikes for all
 
 switch (life_veh_shop select 0) do
 {
@@ -26,9 +26,10 @@ switch (life_veh_shop select 0) do
 	case "civ_air": {_ret = license_civ_air;};
 	case "cop_air": {_ret = license_cop_air;};
 	case "cop_airhq": {_ret = license_cop_air;};
-	case "civ_truck":	{_ret = license_civ_truck;};
+	case "civ_truck":{_ret = license_civ_truck;};
 	case "reb_car": {_ret = license_civ_rebel;};
 	case "cop_car": {_ret = true;};
+	//case "admin_car": {_ret = license_civ_admin;}; //Only admins can use admin shop duh
 	case "cop_ship": 
 	{
 		if(_veh == "B_Boat_Armed_01_minigun_F") then

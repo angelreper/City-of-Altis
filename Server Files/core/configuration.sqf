@@ -83,7 +83,7 @@ life_cash = 0;
 __CONST__(life_impound_car,350);
 __CONST__(life_impound_boat,250);
 __CONST__(life_impound_air,850);
-life_istazed = false;
+life_istazed = false; //if true ouch
 life_my_gang = ObjNull;
 
 life_vehicles = [];
@@ -193,7 +193,8 @@ life_licenses =
 	["license_civ_cement","civ"],
 	["license_med","med"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_admin","civ"] //Admin civ liceance (might make cop one)
 ];
 
 //Setup License Variables
