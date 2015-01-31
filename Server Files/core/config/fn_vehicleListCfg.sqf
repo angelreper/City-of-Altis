@@ -124,7 +124,7 @@ switch (_shop) do
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
-			return pushBack
+			_return pushBack
 			["B_MRAP_01_F",30000];
 		};
 	};
