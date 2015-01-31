@@ -11,6 +11,8 @@ Reset car sell and get prices
 Made repairing cars faster  
 Added CV's
 Allowed jailing from 'jail_marker'  
+Added Admin license  
+
 ### V0.3
 Added Modded Taser to damage file  
 Added more cars  
@@ -28,9 +30,9 @@ Add car spawner insted of admin menu, for admins only http://forums.bistudio.com
 and http://www.armaholic.com/page.php?id=21612  
 http://www.armaholic.com/page.php?id=19689 ?  
 i want it http://www.armaholic.com/page.php?id=19746  
-for cops http://www.armaholic.com/page.php?id=24235  
 civ car http://www.armaholic.com/page.php?id=25563  
 ford http://www.armaholic.com/page.php?id=26787  
 Ctab ? http://www.armaholic.com/page.php?id=22992  
 Set cars as colours  
 Set jail as manned AI  
+Removed siren F key

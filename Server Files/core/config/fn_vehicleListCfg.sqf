@@ -48,7 +48,7 @@ switch (_shop) do
 			["B_Quadbike_01_F",2500],
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
-			["LandRover_TK_CIV_EP1",20000]
+			["LandRover_TK_CIV_EP1",20000],
 			["C_SUV_01_F",35000],
 			["C_Van_01_transport_F",40000]
 		];
@@ -101,12 +101,12 @@ switch (_shop) do
 		
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return pushBack
-			["TCG_CVPIFPBPD",6500];
-			_return pushBack
-			["TCG_CVPIFPBLBSTATE",6500];
-			_return pushBack
-			["TCG_CVPIFPBSTATE",7000];
+			_return =
+			[
+				["TCG_CVPIFPBPD",6500],
+				["TCG_CVPIFPBLBSTATE",6500],
+				["TCG_CVPIFPBSTATE",7000]
+			];
 		};
 		if(__GETC__(life_coplevel) > 3) then
 		{
@@ -115,12 +115,12 @@ switch (_shop) do
 		};
 		if(__GETC__(life_coplevel) > 4) then
 		{
-			_return pushBack
-			["demian2435_swat_hunter",30000];
-			_return pushBack
-			["TCG_CVPIUCBlack",8000];
-			_return pushBack
-			["TCG_CVPIUCWhite",8000];
+			_return =
+			[
+				["demian2435_swat_hunter",30000],
+				["TCG_CVPIUCBlack",8000],
+				["TCG_CVPIUCWhite",8000]
+			];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{

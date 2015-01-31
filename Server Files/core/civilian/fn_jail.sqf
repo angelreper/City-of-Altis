@@ -14,7 +14,7 @@ if(life_is_arrested) exitWith {}; //Dafuq i'm already arrested dumb cops trying 
 _bad = [_this,1,false,[false]] call BIS_fnc_param;
 
 //##80
-_time = [_this,2,15,[0]] call BIS_fnc_param;  // <-- Add This Line
+_time = [_this,2,15,[0]] call BIS_fnc_param; 
 
 player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];

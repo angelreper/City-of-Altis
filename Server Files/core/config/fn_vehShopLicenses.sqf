@@ -29,7 +29,7 @@ switch (life_veh_shop select 0) do
 	case "civ_truck":{_ret = license_civ_truck;};
 	case "reb_car": {_ret = license_civ_rebel;};
 	case "cop_car": {_ret = true;};
-	//case "admin_car": {_ret = license_civ_admin;}; //Only admins can use admin shop duh
+	case "admin_car": {_ret = license_civ_admin;}; //Only admins can use admin shop duh
 	case "cop_ship": 
 	{
 		if(_veh == "B_Boat_Armed_01_minigun_F") then
