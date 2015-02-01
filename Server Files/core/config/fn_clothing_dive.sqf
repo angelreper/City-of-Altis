@@ -18,9 +18,9 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_B_Wetsuit",nil,2000]
+			["U_B_Wetsuit",nil,2000],
 			["U_C_Fisherman",nil,200],
-			["U_C_FishermanOveralls",nil,200],
+			["U_C_FishermanOveralls",nil,200]
 		];
 	};
 	

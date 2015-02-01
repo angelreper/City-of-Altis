@@ -5,6 +5,9 @@ Our server is under development and we are constantly changing features and crea
 Although this code has not yet got a license we do not mind you using some of it for your own server but we would appreciate a mention. The original framework was designed by Tonic as you can see in most of the code and we would like to thank him for sharing his brilliant scripts and talent.
 
 ## Changelog
+### V0.0.2
+Redid mission file order
+
 ### v0.3.1
 Added ESU helis  
 Reset car sell and get prices  
