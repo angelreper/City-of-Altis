@@ -1,4 +1,6 @@
-# City-of-Altis
+# City-of-Altis (Development Paused)
+## Development has been temporarily paused
+
 The complete mod for the City of Altis server.  
 Our server is under development and we are constantly changing features and creating bugs. If you find a bug please report it on our GitHub page (https://github.com/MightySCollins/City-of-Altis)  
 
